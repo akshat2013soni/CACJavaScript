@@ -15,3 +15,5 @@ const id2 = Symbol("12");
 
 console.log(id1 === id2);
 // false, symbol gives uniqueness to the variables even if they are same in value and datatype
+
+//Stack (primitive), Heap (non-primitive)
