@@ -31,3 +31,23 @@ let num = 445;
 let stringNum = String(num);
 console.log(stringNum);
 console.log(typeof stringNum);
+
+// *******************Operations*****************//
+let value = 8;
+let negValue = -value; //-8
+
+// 2**3 = 8 (power)
+// 2%3 = 2 (mod)
+
+// "1" + 2 = 12 string preference
+// 1 + "2" = 12 string preference
+// "1"+2+2 = 122 string preference
+// 1+2+"2" = 32 integer preference
+
+console.log(+true); // 1 -converted to int
+console.log(+""); // 0 -converted to int
+
+let counter = 100;
+console.log(counter);
+counter++; // used and then incremented
+++counter; // incremented and then used
